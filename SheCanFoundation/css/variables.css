@@ -1,0 +1,12 @@
+:root {
+  --primary: #ff592f;
+  --navy: #000924;
+  --heading: #07142e;
+  --bg: #fafafa;
+  --section: #fff3ee;
+  --text: #4a4a4a;
+  --accent: #d7a247;
+
+  --radius: 14px;
+  --transition: 0.3s ease;
+}
