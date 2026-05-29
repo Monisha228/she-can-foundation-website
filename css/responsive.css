@@ -1,7 +1,17 @@
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
+    flex:1;
   }
+  .logo
+  {
+    flex:1;
+  }
+  .buttons
+  {
+    flex:1;
+  }
+  
   .nav-items {
     display: none;
     position: absolute;
