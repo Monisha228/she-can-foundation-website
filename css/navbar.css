@@ -1,0 +1,51 @@
+.navbar {
+  background-color: var(--navy);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  z-index: 99;
+}
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+.nav-items {
+  display: flex;
+  gap: 24px;
+}
+.nav-items li {
+  list-style-type: none;
+}
+.nav-items li a {
+  color: var(--section);
+  text-decoration: none;
+}
+.nav-items li a:hover {
+  color: var(--primary);
+}
+.donateBtn {
+  background-color: var(--primary);
+  color: var(--bg);
+  padding: 14px 28px;
+  border: none;
+  outline: none;
+  font-family: "Inter", "sans-serif";
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.donateBtn:hover {
+  background-color: var(--accent);
+}
+.hamburger {
+  display: none;
+  color: var(--section);
+  font-size: 24px;
+  cursor: pointer;
+}
