@@ -44,6 +44,7 @@
   .cta-buttons {
     flex-direction: column;
     width: fit-content;
+    text-align:center;
   }
   .cta-buttons .aboutBtn {
     background-color: var(--bg) !important;
